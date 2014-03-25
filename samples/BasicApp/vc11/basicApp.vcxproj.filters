@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{9fe0aec3-dda9-41bf-aad2-9e4afa3cfd94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-V8Scripting">
+      <UniqueIdentifier>{615acc01-1881-4161-8c41-ad5da5f83aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-V8Scripting\include">
+      <UniqueIdentifier>{7a349348-718b-4427-87f5-b597af4e8043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-V8Scripting\src">
+      <UniqueIdentifier>{9d18f980-0008-4c88-92f7-7851d2fc2566}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\basicApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ExampleObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ExampleObjectWrap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TestObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V8Script.cpp">
+      <Filter>Blocks\Cinder-V8Scripting\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\v8utils.cpp">
+      <Filter>Blocks\Cinder-V8Scripting\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\ExampleObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ExampleObjectWrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TestObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\ObjectWrap.h">
+      <Filter>Blocks\Cinder-V8Scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\V8Script.h">
+      <Filter>Blocks\Cinder-V8Scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\v8utils.h">
+      <Filter>Blocks\Cinder-V8Scripting\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
