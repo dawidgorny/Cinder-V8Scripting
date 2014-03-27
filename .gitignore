@@ -1,1 +1,3 @@
 lib/Win32/
+samples/BasicApp/vc11/Release/
+*.sdf
